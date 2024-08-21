@@ -12,7 +12,7 @@ export function Home() {
 
   return (
     <section className="section-home">
-      <article className="article-home">
+      <article data-aos="fade-up" className="article-home">
         <img className="logo" src={logo} alt="" />
         <h1>Title</h1>
         <p>

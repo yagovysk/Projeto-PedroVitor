@@ -3,5 +3,5 @@
   padding: 0;
 }
 .main-app {
-  overflow-x: hidden;
+  overflow: hidden;
 }

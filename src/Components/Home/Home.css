@@ -2,17 +2,19 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
+  overflow: hidden;
   gap: 36rem;
-  padding: 0;
 }
 .article-home {
   display: flex;
   flex-direction: column;
+  margin: 0;
   background-color: rgb(215, 211, 211);
   padding: 7rem 0;
   padding-left: 10rem;
   padding-right: 2rem;
-  gap: 1rem;
+
+  gap: 2rem;
 }
 .article-home .logo {
   width: 10rem;
@@ -27,7 +29,7 @@
 }
 .container-buttons {
   display: flex;
-
+  overflow-y: hidden;
   justify-content: center;
   gap: 1rem;
 }
