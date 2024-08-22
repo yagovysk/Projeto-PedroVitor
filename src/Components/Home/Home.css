@@ -3,6 +3,7 @@
   flex-direction: row-reverse;
   justify-content: center;
   overflow: hidden;
+  width: 100%;
   gap: 36rem;
 }
 .article-home {
@@ -68,17 +69,24 @@
 }
 @media (max-width: 768px) {
   .article-home {
-    padding: 4rem 1rem;
+    padding: 4rem 0;
     padding-bottom: 11rem;
+
+    width: 100%;
     gap: 2rem;
+    align-items: center;
   }
   .article-home .logo {
     margin-top: -4rem;
   }
+  .article-home p {
+    font-size: 1rem;
+    width: 15rem;
+  }
   .container-car {
-    top: 33%;
+    top: 38%;
   }
   .container-car .img-car {
-    width: 25rem;
+    width: 21em;
   }
 }
