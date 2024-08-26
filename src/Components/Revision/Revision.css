@@ -44,7 +44,8 @@
   gap: 4rem;
 }
 .revision-article h2 {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family: "Oswald", sans-serif;
 }
 .revision-article p {
   font-size: 1.7rem;
@@ -70,6 +71,7 @@
   font-size: 2rem;
   text-align: center;
   display: flex;
+  font-family: "Oswald", sans-serif;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
@@ -100,8 +102,9 @@
     z-index: -1; /* Coloca o quadrado atrás da imagem */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.836);
   }
-  .container-revision h2 {
+  .container-revision .title-revision {
     display: flex;
+    font-family: "Oswald", sans-serif !important;
   }
   .container-revision img {
     width: 14rem;
@@ -113,6 +116,10 @@
   }
   .revision-article h2 {
     display: none;
+  }
+  .revision-article p {
+    font-size: 1.2rem;
+    line-height: 2rem;
   }
   .cards-revision h3 {
     font-size: 1.3rem;
