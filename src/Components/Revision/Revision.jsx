@@ -1,4 +1,5 @@
 import revision from "../../assets/revision-img.png";
+import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -30,9 +31,11 @@ export function Revision() {
           </div>
         </article>
       </div>
-      <div data-aos="fade-up" className="revision-cards">
-        <div data-aos="fade-up">
-          <h3>Checklist Geral</h3>
+      <div className="container-cards">
+        <div className="cards-revision" data-aos="fade-up" data-aos-delay="100">
+          <h3>
+            <IoMdCheckmarkCircleOutline /> Checklist Geral
+          </h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
             blanditiis ut similique illum quibusdam? Repellendus quidem ratione
@@ -40,8 +43,10 @@ export function Revision() {
             id laboriosam, voluptates numquam!
           </p>
         </div>
-        <div data-aos="fade-up">
-          <h3>Scanner aprofundado</h3>
+        <div className="cards-revision" data-aos="fade-up" data-aos-delay="300">
+          <h3>
+            <IoMdCheckmarkCircleOutline /> Scanner aprofundado
+          </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
             labore suscipit soluta sunt! Itaque ad deserunt, ducimus fuga
@@ -49,8 +54,10 @@ export function Revision() {
             distinctio quod animi? Nulla, inventore.
           </p>
         </div>
-        <div data-aos="fade-up">
-          <h3>Original ou Performance</h3>
+        <div className="cards-revision" data-aos="fade-up" data-aos-delay="500">
+          <h3>
+            <IoMdCheckmarkCircleOutline /> Original ou Performance
+          </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatibus deleniti nostrum rem commodi. Culpa atque libero,
