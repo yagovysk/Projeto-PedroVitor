@@ -65,16 +65,7 @@
 .container-car .img-car {
   width: 45rem;
 }
-@media (max-width: 1160px) {
-  .section-home {
-    flex-direction: column;
-    gap: 0;
-  }
-  .container-car {
-    top: 43%;
-    align-items: center;
-  }
-}
+
 @media (max-width: 768px) {
   .article-home {
     padding: 4rem 0;
