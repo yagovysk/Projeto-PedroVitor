@@ -83,7 +83,7 @@
 }
 @media (max-width: 768px) {
   .revision-section {
-    padding: 7rem 1rem;
+    padding: 9rem 1rem;
   }
   .container-revision {
     flex-direction: column;
