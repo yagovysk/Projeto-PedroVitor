@@ -99,3 +99,8 @@
     width: 21em;
   }
 }
+@media (max-width: 812px) {
+  .container-car {
+    top: 70%;
+  }
+}
