@@ -99,8 +99,8 @@
     width: 21em;
   }
 }
-@media (max-height: 300px) {
+@media (max-height: 450px) {
   .container-car {
-    top: 80%;
+    top: 70%;
   }
 }
