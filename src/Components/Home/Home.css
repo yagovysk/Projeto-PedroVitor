@@ -45,7 +45,8 @@
   color: #000;
   padding: 0.5rem 3rem;
   border-radius: 15px;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  z-index: 1;
 }
 .container-responsive {
   display: flex;
